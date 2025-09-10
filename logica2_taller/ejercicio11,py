@@ -1,0 +1,22 @@
+total = 0
+
+while True:
+    print("Menú:")
+    print("1) Sumar al total")
+    print("2) Ver total")
+    print("0) Salir")
+    opcion = input("Elige una opción: ")
+
+    if opcion == "1":
+        numero = float(input("Ingresa un número para sumar: "))
+        total += numero
+    elif opcion == "2":
+        print("Total actual:", total)
+    elif opcion == "0":
+        print("ey nospi papi...")
+        break
+    else:
+        print("Opción no válida, intenta de nuevo.")
+        
+#quede minimo comun multiplo
+
